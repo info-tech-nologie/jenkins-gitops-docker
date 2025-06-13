@@ -34,7 +34,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("devops/jenkins-flask")
+        app = docker.build("mohamedalirezgui/jenkins-flask")
     }
 
     stage('Test image') {
